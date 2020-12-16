@@ -1,0 +1,351 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+header{
+    min-height: 450px;
+    background-image: url(images/home-img.png);
+    background-size: 100%;
+    display: flex;
+}
+
+.navigation{
+    position: fixed;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    max-width: 100%;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #000000;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: burlywood;
+    transition-duration: 0.5s;
+}
+
+
+.name{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.name h1{
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    font-size: 88px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border: solid 3px #F29E9E;
+    padding: 10px 30px;
+
+}
+
+.name h1:hover{
+    background-color: rgb(222, 135, 135);
+    transition-duration: 1s;
+}
+
+
+
+/* ABOUT PAGE */
+
+.about{
+    margin-left: 70px;
+}
+
+.head-about{
+    background-image: url(images/about-img.jpg);
+}
+
+
+
+/* CONTACT PAGE */
+
+.contact{
+    margin-left: 50px;
+}
+
+
+/* DESCRIPTION */
+
+section{
+    min-height: 450px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+
+.herobox1{
+    flex: 1;
+    padding-left: 100px;
+    flex: 1;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.herobox1 h2{
+    color: #F29E9E;
+    font-size: 2.5rem;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+
+.herobox2 img{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-radius: 100%;
+}
+
+
+.hello{
+    line-height: 0;
+}
+
+.welcome{
+    text-align: left;
+}
+
+.define{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+span:hover{
+    background-color: #F29E9E;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+
+/* FOOTER */
+
+footer{
+    min-height: 260px;
+    background-color: rgb(226, 191, 191);
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    flex: 1;
+    text-align: center;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    padding-right: 50px ;
+
+}
+
+.info{
+    flex: 1;
+    text-align: right;
+    padding-right: 200px;
+}
+
+
+/* FOLIO */
+
+.container{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myfolio{
+    background-color: black;
+    height: 300px;
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 20px rgba(0, 0, 0, 0.082);
+}
+
+.school{
+    background-image: url(images/school-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.school p{
+    background-color: #F8DCE4;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.grad{
+    background-image: url(images/university-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grad p{
+    background-color: #F8DCE4;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+.work{
+    background-image: url(images/work-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.work p{
+    background-color: #F8DCE4;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 250px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.interest{
+    display: flex;
+    min-height: 500px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.interest1{
+    background-color: black;
+    background-image: url(images/photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+.interest2{
+    background-color: black;
+    background-image: url(images/painting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+.interest p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 140px;
+    color:  #000000;
+}
+
+
+/* CONTACT CONTENT */
+
+
+.mycontact{
+    display: flex;
+}
+
+.form{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    min-height: 500px;
+    box-sizing: border-box;
+}
+
+.social-box{
+    background-color: burlywood;
+    flex: 1;
+    min-height: 500px;
+    display: flex;
+}
+
+form div{
+    margin: 30px;
+}
+
+input[type=text],  input[type=email], textarea{
+    padding: 10px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.25rem;
+    box-sizing: border-box;
+}
+
+.mycontact h2{
+    text-align: left;
+    margin: 100px 30px;
+    color: #e28a8a;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    font-weight: 700;
+    background-color: #F29E9E;
+}
+
+input[type=submit]:hover{
+    background-color: #f0d4d4;
+    transition-duration: 1s;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-box img{
+    width: 150px;
+    height: 150px;
+    padding-right: 50px ;
+}
